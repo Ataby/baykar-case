@@ -20,7 +20,7 @@ const MainFifth = () => {
       ];
 
   return (
-    <div className='relative'>
+    <div className='relative '>
       <div className='flex-col gap-8 pt-12 px-4 md:p-10 z-20'>
             <h1 className='text-[32px] md:text-[56px] font-bold'>Grow your collection</h1>
             <p className='text-wrap flex text-center md:text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consequatur cumque ut perspiciatis perferendis, earum vitae voluptate asperiores velit nulla repudiandae pariatur obcaecati! Non culpa delectus quisquam fugiat sit at. Error consectetur fuga architecto consequuntur.</p>
