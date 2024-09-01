@@ -26,8 +26,8 @@ const MainFifth = () => {
             <p className='text-wrap flex text-center md:text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consequatur cumque ut perspiciatis perferendis, earum vitae voluptate asperiores velit nulla repudiandae pariatur obcaecati! Non culpa delectus quisquam fugiat sit at. Error consectetur fuga architecto consequuntur.</p>
     
       </div>
-      <div className='flex md:justify-between items-center justify-center z-20 border-2 border-blue-200 flex-wrap md:flex-nowrap'>
-            <ul className='md:p-10 border-2 border-red-200 md:flex-col flex flex-row overflow-x-scroll scroll-smooth gap-x-2 '>
+      <div className='flex md:justify-between items-center justify-center z-20   flex-wrap md:flex-nowrap'>
+            <ul className='md:p-10 md:flex-col flex flex-row overflow-x-scroll scroll-smooth gap-x-2 '>
                   {listedItems.map((item, index) => (
                         <li key={index} className='flex items-center gap-4 hover:shadow-md w-fit p-4 rounded-md group text-nowrap hover:bg-gray-300'>
                               <img className='' src={item.icon} alt={item.name} />
