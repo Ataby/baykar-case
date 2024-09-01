@@ -29,10 +29,10 @@ const MainFifth = () => {
       <div className='flex md:justify-between items-center justify-center z-20   flex-wrap md:flex-nowrap'>
             <ul className='md:p-10 md:flex-col flex flex-row overflow-x-scroll scroll-smooth gap-x-2 '>
                   {listedItems.map((item, index) => (
-                        <li key={index} className='flex items-center gap-4 hover:shadow-md w-fit p-4 rounded-md group text-nowrap hover:bg-gray-300'>
+                        <li key={index} className='flex items-center gap-4 hover:shadow-md w-fit p-4 rounded-md group text-nowrap hover:bg-gray-100'>
                               <img className='' src={item.icon} alt={item.name} />
                               <p className='text-[20px]'>{item.name}</p>
-                              <img className=' invisible group-hover:visible group-hover:bg-gray-300' src={RightArrow} alt="" />
+                              <img className=' invisible group-hover:visible ' src={RightArrow} alt="" />
                         </li>
                   ))}
             </ul>
