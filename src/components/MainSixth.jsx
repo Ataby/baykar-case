@@ -5,8 +5,8 @@ import Ellipses from "../assets/images/Ellipses_all.svg";
 
 const MainSixth = () => {
   return (
-    <div className="min-h-[717px] border-2 border-red-400 py-10 bg-[#78350F] overflow-x-auto ">
-      <div className=" flex p-20 justify-start items-center relative border-2 border-blue-400 min-h-[633px] bg-[#78350F]">
+    <div className="min-h-[717px] border-red-400 py-10 bg-[#78350F] overflow-x-auto ">
+      <div className=" flex p-20 justify-start items-center relative  min-h-[633px] bg-[#78350F]">
         <img src={World} alt="" className="absolute min-w-[1049px] mx-auto " />
         <img src={Ellipses} alt="" className="absolute z-10 -mt-12 left-[290px] min-w-[724px]" />
         <img
